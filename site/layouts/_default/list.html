@@ -1,5 +1,5 @@
 {{ define "head" }}
-<meta name="description" content="{{ .Title }} of {{ .Site.Title }}">
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
 <link rel="stylesheet" href="{{ (printf "%scss/list.css" (.Site.Params.staticPath | default "")) | relURL }}" media="all">
 {{ end }}
 
@@ -10,6 +10,9 @@
 {{ define "main" }}
 <div class="container pt-5" id="list-page">
     <h1 class="h2 text-center pb-2">{{ .Title }}</h1>
+{{ with .Description }}
+<p class="text-center mb-4">{{ . }}</p>
+{{ end }}
     <div class="row">
         {{ range .Paginator.Pages }}
         <div class="col-lg-4 col-md-6 my-3">
