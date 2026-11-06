@@ -10,9 +10,9 @@
 <div class="container py-3" id="recent-posts">
     {{ $recentPostsCount := .Site.Params.footer.recentPosts.count | default 3 }}
     {{ $recentPosts := $allSectionPosts | first $recentPostsCount }}
-    <div class="h3 text-center text-secondary py-3">
+    <h2 class="h3 text-center text-secondary py-3">
         {{ .Site.Params.footer.recentPosts.title | default (i18n "recent_posts") }}
-    </div>
+   </h2>
     <div class="row justify-content-center">
         {{ range $recentPosts }}
         <div class="col-lg-4 col-md-6 pt-2">
@@ -26,7 +26,7 @@
                 {{ end }}
                 <div class="card-body bg-transparent p-3 shadow-sm">
                     <a href="{{ .RelPermalink }}" class="primary-font card-title">
-                        <h5 class="card-title bg-transparent" title="{{ .Title }}">{{ .Title }}</h5>
+                        <h3 class="h5 card-title bg-transparent" title="{{ .Title }}">{{ .Title }}</h3>
                     </a>
                     <div class="card-text secondary-font">
                         <p>{{ with .Description }}{{ . }}{{ else }}{{ .Plain | truncate 120 }}{{ end }}</p>
