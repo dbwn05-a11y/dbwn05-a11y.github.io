@@ -1,5 +1,5 @@
 baseURL = "http://www.example.com"
-title = "johndoe"
+title = "eyuzu"
 
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -22,11 +22,11 @@ noClasses = false
 unsafe = true
 
 [params]
-author = "John Doe"
+author = "eyuzu"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-description = "John Doe's personal website"
+description = "eyuzu의 웹 실험과 학습 기록을 담은 개인 포트폴리오"
 keywords = "blog,developer,personal"
-info = ["Full Stack DevOps", "Magician"]
+info = ["컴퓨터인공지능학부 2학년", "웹을 만들고 배운 것을 기록합니다"]
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
