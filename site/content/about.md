@@ -1,25 +1,28 @@
 +++
-title = "About"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+title = "소개"
+description = "eyuzu의 소개와 웹 학습 기록"
+author = "eyuzu"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+안녕하세요. 컴퓨터인공지능학부 2학년에 재학 중인 **eyuzu**입니다.
 
-Hugo makes use of a variety of open source projects including:
+수업에서 진행한 웹 실습과 사이트를 수정하고 배포하면서 배운 내용을 이곳에 기록합니다.
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+## 지금 배우는 것
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+- HTML, CSS, JavaScript가 웹페이지에서 맡는 역할
+- Git으로 변경 내용을 기록하고 GitHub에 올리는 과정
+- GitHub Pages와 GitHub Actions를 이용한 사이트 배포
+- Hugo의 설정 파일과 Markdown을 이용한 콘텐츠 수정
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+## 해 본 활동
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+제공된 예제 프로젝트를 실행하고 수정한 뒤 GitHub Pages에 배포하는 실습을 했습니다.
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+이 포트폴리오는 Hugo Coder 테마를 바탕으로 만들고 있습니다. 이름과 소개를 바꾸고, 예시 링크를 제 GitHub 계정으로 연결하고, 메뉴를 한국어로 수정했습니다.
+
+## 앞으로의 목표
+
+결과 화면뿐 아니라 수정한 이유와 확인 과정도 설명할 수 있는 포트폴리오를 만들고 싶습니다.
+
+다음으로 프로젝트별 작업 과정과 배운 점을 정리하고, 모바일 화면과 링크가 제대로 동작하는지 확인할 계획입니다.
