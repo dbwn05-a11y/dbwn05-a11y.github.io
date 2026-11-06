@@ -609,7 +609,10 @@ def fix_public_paths(public, base):
         if found and (not prefix or path.startswith(prefix + '/')):
             return value, found
         if not found:
-            parts = rel.split('/')
+            # An absolute URL may target another Pages repository.
+            if urllib.parse.urlsplit(html.unescape(value)).scheme in ('http', 'https'):
+                return value, None
+            parts = rel.rstrip('/').split('/')
             for i in range(1, len(parts)):
                 found = existing('/'.join(parts[i:]))
                 if found:
