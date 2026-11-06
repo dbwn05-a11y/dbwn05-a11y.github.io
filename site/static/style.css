@@ -118,3 +118,8 @@ footer a .h5 {
   text-decoration-thickness: 2px;
   text-underline-offset: .35em;
 }
+
+#single .post-navigation a {
+  color: var(--text-link-color);
+  overflow-wrap: anywhere;
+}
