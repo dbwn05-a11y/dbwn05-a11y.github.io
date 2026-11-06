@@ -1,6 +1,6 @@
 {
   "config": "hugo.toml,pages.json",
-  "theme": "template",
+    "theme": "hugo-profile",
   "sample": "exampleSite",
   "version": "0.167.0",
   "slug": "hugo-coder",

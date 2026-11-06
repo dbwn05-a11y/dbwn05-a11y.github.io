@@ -161,22 +161,22 @@ languageName = "한국어"
 [[languages.ko.menu.main]]
 name = "소개"
 weight = 1
-url = "about/"
+url = "/about/"
 
 [[languages.ko.menu.main]]
 name = "학습 기록"
 weight = 2
-url = "posts/"
+url = "/posts/"
 
 [[languages.ko.menu.main]]
 name = "프로젝트"
 weight = 3
-url = "projects/"
+url = "/projects/"
 
 [[languages.ko.menu.main]]
 name = "연락처"
 weight = 5
-url = "contact/"
+url = "/contact/"
 
 [languages.pt-br]
 disabled = true
@@ -208,3 +208,27 @@ url = "projects/"
 name = "Contato"
 weight = 5
 url = "contact/"
+
+[params.hero]
+enable = true
+intro = ""
+title = "eyuzu"
+subtitle = "컴퓨터인공지능학부 2학년"
+content = "웹을 만들고 배운 것을 기록합니다"
+image = "/images/eyuzu-blue-robot-v1.png"
+
+[params.theme]
+defaultTheme = "light"
+
+[params.color]
+backgroundColor = "#f8fafc"
+primaryColor = "#2563eb"
+textLinkColor = "#2563eb"
+secondaryBackgroundColor = "#eff6ff"
+
+[params.navbar]
+brandName = "eyuzu"
+disableSearch = true
+
+[params.singlePages]
+socialShare = false

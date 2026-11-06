@@ -19,7 +19,5 @@
       "^text/"
     ]
   },
-  "theme": [
-    "template"
-  ]
+ "theme": ["hugo-profile"]
 }
