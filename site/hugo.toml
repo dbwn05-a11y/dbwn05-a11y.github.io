@@ -243,3 +243,9 @@ name = "프로젝트 보기"
 url = "/projects/"
 download = false
 newPage = false
+
+[params.footer.recentPosts]
+enable = true
+path = "posts"
+title = "최근 학습 기록"
+count = 3
