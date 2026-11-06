@@ -54,3 +54,12 @@ body,
   font-size: 1rem;
   line-height: 1.8;
 }
+
+:focus-visible {
+  outline: 3px solid #2563eb !important;
+  outline-offset: 4px;
+}
+
+body.dark :focus-visible {
+  outline-color: #93c5fd !important;
+}
