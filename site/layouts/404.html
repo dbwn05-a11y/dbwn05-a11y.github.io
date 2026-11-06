@@ -1,0 +1,21 @@
+{{ define "head" }}
+<meta name="description" content="페이지를 찾을 수 없습니다. 홈으로 돌아가 원하는 내용을 찾아보세요.">
+{{ end }}
+
+{{ define "title" }}
+페이지를 찾을 수 없습니다 | {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+<div class="container py-5 text-center">
+    <img src="{{ "404.png" | relURL }}" alt="" class="img-fluid mb-4" width="320">
+    <h1>페이지를 찾을 수 없습니다</h1>
+    <p class="my-4">
+        주소가 잘못되었거나 페이지가 이동했을 수 있어요.<br>
+        홈으로 돌아가 메뉴에서 원하는 내용을 찾아보세요.
+    </p>
+    <a href="{{ .Site.Home.RelPermalink }}" class="btn btn-primary">
+        홈으로 돌아가기
+    </a>
+</div>
+{{ end }}
