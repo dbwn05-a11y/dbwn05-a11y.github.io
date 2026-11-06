@@ -98,3 +98,17 @@ footer a .h5 {
   font-weight: 500;
   line-height: 1.2;
 }
+
+#single .page-content a:not(.btn) {
+  text-decoration-line: underline;
+  text-decoration-thickness: .08em;
+  text-underline-offset: .2em;
+}
+
+#single .page-content a:not(.btn)::after {
+  content: none;
+}
+
+#single .page-content a:not(.btn):hover {
+  text-decoration-thickness: .14em;
+}
