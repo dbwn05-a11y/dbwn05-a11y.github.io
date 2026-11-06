@@ -112,3 +112,9 @@ footer a .h5 {
 #single .page-content a:not(.btn):hover {
   text-decoration-thickness: .14em;
 }
+
+#profileHeader .nav-link[aria-current] {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: .35em;
+}
