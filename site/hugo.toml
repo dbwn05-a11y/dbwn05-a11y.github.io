@@ -24,6 +24,7 @@ unsafe = true
 
 [params]
 author = "eyuzu"
+copyright = "eyuzu"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "eyuzu의 웹 실험과 학습 기록을 담은 개인 포트폴리오"
 keywords = "blog,developer,personal"
@@ -249,3 +250,6 @@ enable = true
 path = "posts"
 title = "최근 학습 기록"
 count = 3
+
+[params.footer.socialNetworks]
+github = "https://github.com/dbwn05-a11y/"
