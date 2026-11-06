@@ -235,3 +235,10 @@ socialShare = false
 
 [params.singlePages.readTime]
 enable = false
+
+[params.hero.button]
+enable = true
+name = "프로젝트 보기"
+url = "/projects/"
+download = false
+newPage = false
