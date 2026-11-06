@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Jua&display=swap");
+
+body,
+.primary-font,
+#primary-font,
+.secondary-font,
+#secondary-font,
+.default-font,
+#default-font {
+  font-family: "Gowun Dodum", "Malgun Gothic", sans-serif !important;
+}
+
+:is(h1, h2, h3, h4, h5, h6, .navbar-brand, .card-title),
+.card-title a {
+  font-family: "Jua", "Gowun Dodum", sans-serif !important;
+  font-weight: 400;
+  line-height: 1.4;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+#single {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+#single .page-content {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
+#single .title > h1 {
+  font-size: 2rem;
+}
+
+#single .page-content h2 {
+  font-size: 1.5rem;
+}
+
+#single .page-content h3 {
+  font-size: 1.25rem;
+}
+
+#hero h1 {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+}
+
+#hero h2 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  line-height: 1.5;
+}
+
+#hero .hero-content {
+  font-size: 1rem;
+  line-height: 1.8;
+}
