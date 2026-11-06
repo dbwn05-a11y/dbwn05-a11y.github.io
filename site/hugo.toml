@@ -1,8 +1,8 @@
 baseURL = "http://www.example.com"
 title = "eyuzu"
 
-languageCode = "en"
-defaultContentLanguage = "en"
+languageCode = "ko"
+defaultContentLanguage = "ko"
 enableEmoji = true
 
 [pagination]
@@ -155,30 +155,31 @@ url = "https://github.com/dbwn05-a11y/"
 
 
 
-[languages.en]
-languageName = ":uk:"
+[languages.ko]
+languageName = "한국어"
 
-[[languages.en.menu.main]]
-name = "About"
+[[languages.ko.menu.main]]
+name = "소개"
 weight = 1
 url = "about/"
 
-[[languages.en.menu.main]]
-name = "Blog"
+[[languages.ko.menu.main]]
+name = "학습 기록"
 weight = 2
 url = "posts/"
 
-[[languages.en.menu.main]]
-name = "Projects"
+[[languages.ko.menu.main]]
+name = "프로젝트"
 weight = 3
 url = "projects/"
 
-[[languages.en.menu.main]]
-name = "Contact me"
+[[languages.ko.menu.main]]
+name = "연락처"
 weight = 5
 url = "contact/"
 
 [languages.pt-br]
+disabled = true
 languageName = ":brazil:"
 title = "João Ninguém"
 
