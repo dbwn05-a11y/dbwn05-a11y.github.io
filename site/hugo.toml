@@ -232,3 +232,6 @@ disableSearch = true
 
 [params.singlePages]
 socialShare = false
+
+[params.singlePages.readTime]
+enable = false
