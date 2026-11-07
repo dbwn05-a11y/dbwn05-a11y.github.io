@@ -2,7 +2,7 @@ timeZone = "Asia/Seoul"
 baseURL = "http://www.example.com"
 title = "eyuzu"
 
-languageCode = "ko"
+locale = "ko"
 defaultContentLanguage = "ko"
 enableEmoji = true
 
@@ -158,7 +158,7 @@ url = "https://github.com/dbwn05-a11y/"
 
 
 [languages.ko]
-languageName = "한국어"
+label = "한국어"
 
 [[languages.ko.menu.main]]
 name = "소개"
@@ -182,7 +182,7 @@ url = "/contact/"
 
 [languages.pt-br]
 disabled = true
-languageName = ":brazil:"
+label = ":brazil:"
 title = "João Ninguém"
 
 [languages.pt-br.params]
