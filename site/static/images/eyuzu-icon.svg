@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>eyuzu</title>
+  <rect width="64" height="64" rx="14" fill="#2563eb"/>
+  <path d="M49 34H15C15 23 22 15 32 15S49 23 49 32V34M15 34C15 44 22 51 32 51C39 51 44 48 48 43" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
