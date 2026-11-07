@@ -68,6 +68,30 @@ hugo server --source site --config "hugo.toml,pages.json" --baseURL "http://loca
 
 미리보기를 사용하는 동안 터미널을 열어 두고, 종료할 때는 Ctrl + C를 누릅니다.
 
+## 새 학습 기록 만들기
+
+터미널에서 `hugo` 명령을 사용할 수 있는 환경이라면, 저장소 최상위 폴더에서 다음 명령을 실행합니다.
+
+```powershell
+hugo new content posts/new-learning-note.md --source site --config "hugo.toml,pages.json"
+```
+
+`new-learning-note.md`는 작성할 글에 맞는 영문 파일명으로 바꿉니다.
+
+이 명령은 `site/archetypes/posts.md` 템플릿을 사용해 `site/content/posts/` 안에 새 글을 만듭니다. 날짜는 자동으로 입력됩니다.
+
+1. 제목과 설명을 글의 내용에 맞게 수정합니다.
+2. 본문의 안내 문장을 실제 학습 내용으로 바꿉니다.
+3. 직접 확인한 결과와 참고 자료, AI의 도움을 받은 부분을 기록합니다.
+
+새 글은 `draft = true`인 초안으로 생성되어 일반 빌드에서는 사이트에 표시되지 않습니다. 초안을 포함한 미리보기는 다음 명령으로 실행합니다.
+
+```powershell
+hugo server --source site --config "hugo.toml,pages.json" --baseURL "http://localhost:1313/" --renderToMemory --noBuildLock --disableFastRender --buildDrafts
+```
+
+글을 완성하고 미리보기에서 확인한 뒤 `draft = false`로 바꿉니다. 저장하고 커밋·푸시한 다음, 배포 결과와 공개 사이트를 확인합니다.
+
 ## 배포와 확인
 
 1. 파일을 수정하고 저장합니다.
