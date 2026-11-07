@@ -107,10 +107,25 @@ hugo server --source site --config "hugo.toml,pages.json" --baseURL "http://loca
 
 ## 사용한 자료와 AI 도움
 
-- 현재 테마: [Hugo Profile](https://github.com/gurusabarish/hugo-profile)
-- 처음 사용한 테마: [Hugo Coder](https://github.com/luizdepra/hugo-coder)
-- 글씨체: Gowun Dodum, Jua
+### 테마·라이브러리·글꼴
 
-테마와 예제 코드의 원저작자는 각 원본 프로젝트에 있습니다. 이 저장소에서는 이를 바탕으로 개인화한 내용과 실습 과정을 정리합니다.
+| 자료 | 사용한 부분 | 라이선스 |
+| --- | --- | --- |
+| [Hugo Profile](https://github.com/gurusabarish/hugo-profile) | 현재 포트폴리오의 기본 테마 | [MIT](https://github.com/gurusabarish/hugo-profile/blob/master/LICENSE) |
+| [Hugo Coder](https://github.com/luizdepra/hugo-coder) | 처음 사이트를 구성할 때 사용한 테마 | [MIT](https://github.com/luizdepra/hugo-coder/blob/main/LICENSE.md) |
+| [Bootstrap 5.1.3](https://github.com/twbs/bootstrap/tree/v5.1.3) | 테마에 포함된 화면 배치와 버튼 스타일 | [MIT](https://github.com/twbs/bootstrap/blob/v5.1.3/LICENSE) |
+| [Font Awesome Free 6.4.2](https://github.com/FortAwesome/Font-Awesome/tree/6.4.2) | 테마의 아이콘 | [아이콘: CC BY 4.0, 코드: MIT](https://github.com/FortAwesome/Font-Awesome/blob/6.4.2/LICENSE.txt) |
+| [Gowun Dodum](https://fonts.google.com/specimen/Gowun+Dodum) | 본문 글꼴 | [SIL Open Font License 1.1](https://github.com/google/fonts/blob/main/ofl/gowundodum/OFL.txt) |
+| [Jua](https://fonts.google.com/specimen/Jua) | 제목 글꼴 | [SIL Open Font License 1.1](https://github.com/google/fonts/blob/main/ofl/jua/OFL.txt) |
 
-파란색 로봇 이미지는 AI로 생성했습니다. 글의 구성, 설정과 코드 수정 방법, 오류 확인, 영어 커밋 메시지 작성에도 AI의 도움을 받았으며, 파일 편집과 Git 명령 실행, 화면 확인은 직접 진행했습니다.
+각 자료에는 해당 원본 프로젝트의 라이선스가 적용됩니다. 원본 라이선스 파일과 코드에 포함된 저작권 표기를 유지하며, 이 저장소에서는 기존 자료를 바탕으로 개인화한 내용과 실습 과정을 정리합니다.
+
+### 이미지와 AI 도움
+
+- 파란색 로봇 이미지는 AI로 생성했습니다.
+- 파란색 e 모양의 사이트 아이콘은 AI가 제공한 SVG 코드를 바탕으로 파일을 저장하고 사이트에 연결했습니다.
+- 글의 구성, 설정과 코드 수정 방법, 오류 확인, 영어 커밋 메시지 작성에도 AI의 도움을 받았습니다.
+- 파일 편집과 저장, Git 명령 실행, 배포 결과와 실제 화면 확인은 직접 진행했습니다.
+
+기존 테마와 라이브러리, AI의 도움을 받은 부분을 구분하여 기록했습니다.
+
