@@ -56,15 +56,46 @@
 
 ## 로컬 미리보기
 
-배포 환경은 Hugo Extended 0.167.0을 사용합니다.
+### 처음 실행할 때 준비하기
 
-Hugo를 설치하고 터미널에서 `hugo` 명령을 사용할 수 있는 환경이라면, 이 저장소의 최상위 폴더에서 다음 명령을 실행합니다.
+Windows PowerShell을 기준으로 안내합니다.
+
+1. [Git for Windows](https://git-scm.com/install/windows)를 설치합니다.
+2. 배포 환경과 맞추기 위해 [Hugo Extended 0.167.0](https://github.com/gohugoio/hugo/releases/tag/v0.167.0)을 준비합니다.
+3. Hugo 압축을 풀고 `hugo.exe`가 들어 있는 폴더를 Windows의 PATH 환경 변수에 추가합니다.
+4. PowerShell을 새로 열고 다음 명령으로 설치 상태를 확인합니다.
+
+```powershell
+git --version
+hugo version
+```
+
+`hugo version` 결과에 `v0.167.0`과 `extended`가 표시되는지 확인합니다. 명령을 찾을 수 없다고 나오면 설치 경로와 PATH 설정을 확인합니다.
+
+### 저장소 내려받기
+
+저장소를 처음 내려받는 경우, 작업할 상위 폴더에서 다음 명령을 한 줄씩 실행합니다.
+
+```powershell
+git clone https://github.com/dbwn05-a11y/dbwn05-a11y.github.io.git
+Set-Location .\dbwn05-a11y.github.io
+```
+
+이미 저장소를 내려받았다면 해당 저장소의 최상위 폴더에서 진행합니다. `README.md`와 `site/` 폴더가 보이는 위치입니다.
+
+테마 파일은 저장소에 포함되어 있으므로 별도로 내려받지 않아도 됩니다.
+
+### 미리보기 실행하기
+
+저장소 최상위 폴더에서 다음 명령을 실행합니다.
 
 ```powershell
 hugo server --source site --config "hugo.toml,pages.json" --baseURL "http://localhost:1313/" --renderToMemory --noBuildLock --disableFastRender
 ```
 
-브라우저에서 http://localhost:1313/ 에 접속합니다.
+`--config "hugo.toml,pages.json"`은 사이트 설정과 배포 주소·테마 설정을 함께 읽기 위한 옵션입니다.
+
+브라우저에서 [로컬 미리보기](http://localhost:1313/)에 접속합니다.
 
 미리보기를 사용하는 동안 터미널을 열어 두고, 종료할 때는 Ctrl + C를 누릅니다.
 
